@@ -1,0 +1,9 @@
+import Route from '@ioc:Adonis/Core/Route'
+const accion_path = "../../Presentacion/modulos/ControladorModulos"
+
+Route.group(() => {
+  Route.get('/modulos/listar', accion_path+'.listar')
+  Route.post('/modulos', accion_path+'.crear')
+  Route.get('/modulos/:id', accion_path+'.buscar')
+  Route.put('/modulos/:id', accion_path+'.actualizar')
+}).prefix('/api/v1')

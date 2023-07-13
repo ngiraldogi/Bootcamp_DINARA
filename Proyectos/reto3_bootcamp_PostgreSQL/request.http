@@ -1,0 +1,24 @@
+# POST http://localhost:3333/reto3/registro-cliente
+# Content-Type: application/json
+
+# {
+#     "cedula": "1234567891",
+#     "nombre": "Daniel",
+#     "apellido": "Cardona",
+#     "telefono": "1234568",
+#     "correo": "cliente2@gmail.com"
+# }
+
+//GET http://localhost:3333/reto3/listar-clientes
+
+# PUT http://localhost:3333/reto3/actualizar-cliente/1234567890
+# Content-Type: application/json
+
+# {
+#     "nombre": "Juan",
+#     "apellido": "Perez",
+#     "telefono": "3117890987",
+#     "correo": "cliente1@gmail.com"
+# }
+
+//DELETE http://localhost:3333/reto3/eliminar-cliente/1234567890

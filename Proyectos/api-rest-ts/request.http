@@ -1,0 +1,24 @@
+# POST http://localhost:3333/alcaldia/registro-usuarios
+# Content-Type: application/json
+
+# {
+#     "codigo_usuario": 10013,
+#     "nombre_usuario": "Pedro Reina",
+#     "contrasena": "123456781",
+#     "email": "user2@gmail.com",
+#     "telefono": "1234561"
+# }
+
+//GET http://localhost:3333/alcaldia/listar-usuarios
+
+
+# PUT http://localhost:3333/alcaldia/actualizar-usuario/10012
+# Content-Type: application/json
+
+# {
+#     "nombre_usuario": "Juan Guarnicion ",
+#     "contrasena": "123456789",
+#     "email": "user@gmail.com",
+#     "telefono": "1234567uut"
+# }
+

@@ -1,0 +1,9 @@
+node_modules
+build
+coverage
+.vscode
+.DS_STORE
+tmp
+.scannerwork
+.nyc_output
+package-lock.json

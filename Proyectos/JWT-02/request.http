@@ -1,0 +1,6 @@
+POST http://localhost:3333/api/perfil/register
+Content-Type: application/json
+
+{
+    "nombrePerfil": "Administrador"
+}

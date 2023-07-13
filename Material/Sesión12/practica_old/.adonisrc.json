@@ -1,0 +1,37 @@
+{
+  "typescript": true,
+  "commands": [
+    "./commands",
+    "@adonisjs/core/build/commands/index.js",
+    "@adonisjs/repl/build/commands",
+    "adonis5-swagger/build/commands",
+    "@adonisjs/lucid/build/commands",
+    "adonis5-scheduler/build/commands"
+  ],
+  "exceptionHandlerNamespace": "App/Exceptions/Handler",
+  "aliases": {
+    "App": "app",
+    "Config": "config",
+    "Database": "database",
+    "Contracts": "contracts"
+  },
+  "preloads": [
+    "./start/rutas/ruta_acciones",
+    "./start/rutas/ruta_modulos",
+    "./start/rutas/ruta_tableros",
+    "./start/rutas/ruta_encuestas",
+    "./start/rutas/ruta_categorias_tablero",
+    "./start/routes",
+    "./start/kernel"
+  ],
+  "providers": [
+    "./providers/AppProvider",
+    "@adonisjs/core",
+    "adonis5-swagger",
+    "@adonisjs/lucid",
+    "adonis5-scheduler"
+  ],
+  "aceProviders": [
+    "@adonisjs/repl"
+  ]
+}
